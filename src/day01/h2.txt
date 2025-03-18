@@ -1,0 +1,60 @@
+    1  clear
+    2  cat /etc/*release*
+    3  xeyes
+    4  sudo apt-get update
+    5  sudo apt install x11-apps
+    6  xeyes
+    7  exit
+    8  ls
+    9  clear
+   10  exit
+   11  mkdir ~/work
+   12  cd ~/work
+   13  pwd
+   14  git config --global user.name "user name"
+   15  git config --global user.email "user email"
+   16  git config --global --lis
+   17  ssh-keygen
+   18  ssh-keygen -t ed25519
+   19  ssh-keygen
+   20  ls ~/.ssh
+   21  cat ~/.ssh/id_rsa.pub
+   22  cat ~/.ssh/id_rsa
+   23  cat ~/.ssh/id_rsa.pub
+   24  git clone git@github.com:weable-kosa/kosa-local_llm-2025-1st.git
+   25  ls
+   26  cd kosa-local_llm-2025-1st/
+   27  ls
+   28  cd doc
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd src
+   33  ls
+   34  cd exercise/
+   35  ls
+   36  cd bardroh/
+   37  ls
+   38  cd day01/
+   39  ls
+   40  history
+   41  history > h1.txt
+   42  ls
+   43  vi h1.txt 
+   44  ls
+   45  git add h1.txt 
+   46  git commit
+   47  git push
+   48  git pull
+   49  git config pull.rebase false
+   50  git pull
+   51  git push
+   52  ls
+   53  rm h1.txt 
+   54  ls
+   55  git checkout h1.txt
+   56  ls
+   57  cat h1.txt 
+   58  ls
+   59  history
+   60  history > h2.txt
